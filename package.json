@@ -2,8 +2,15 @@
   "name": "step-functions-example",
   "description": "",
   "version": "0.1.0",
+  "scripts": {
+    "deploy": "serverless deploy -v --aws-profile pj"
+  },
   "dependencies": {
-    "serverless-pseudo-parameters": "^1.2.5"
+    "acn-pricing-sls-common": "git+https://accenturecio03.visualstudio.com/SoltoDealEvaluation_4592Git/_git/ServerlessUtilities_4592Git#develop",
+    "aws-sdk": "^2.245.1",
+    "lodash": "^4.17.10",
+    "serverless-pseudo-parameters": "^1.2.5",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "serverless-step-functions": "^1.2.0"
